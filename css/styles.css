@@ -54,9 +54,14 @@ img {
   font-weight: 500;
   display: flex;
   align-items: center;
-  border-bottom: 1px solid var(--button-solid-color);
+  
 }
+.page-top{
+border-bottom: 1px solid var(--button-solid-color);
 
+
+
+}
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -218,16 +223,24 @@ font-weight: 400;
 .portfolio-ul-img-list {
   display: flex;
   flex-wrap: wrap;
+  position: absolute;
+  
 }
 
 .portfolio-img:not(:last-child) {
-  margin-right: 23px;
+  margin-right: 24px;
+  margin-bottom: 47px;
+}
+.portfolio-img:last-child{
+  margin-right: 0px;
+   margin-bottom: 0px;
 }
 
 .portfolio-img {
-  border: 1px solid var(--button-solid-color);
-  margin-bottom: 48px;
+  
+  
 }
+
 
 .portfolio-card {
   padding-top: 32px;
