@@ -273,6 +273,19 @@ font-weight: 400;
 }
 
 /* Footer */
+.footer-portfolio{
+background-color: var(--text-h-color);
+  color: var(--text-white-color);
+  top: 1764px;
+  padding-top: 100px;
+  position: absolute;
+  width: 1550px;
+  height: 310px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0px;
+  
+}
 .footer {
   background-color: var(--text-h-color);
   color: var(--text-white-color);
