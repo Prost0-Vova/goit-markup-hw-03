@@ -193,7 +193,7 @@ font-weight: 400;
 .section-portfolio {
   padding-top: 96px;
   padding-bottom: 120px;
-  width: 1532px;
+  
 }
 
 .list-button {
@@ -236,25 +236,20 @@ font-weight: 400;
   
 }
 
-.portfolio-img:not(:last-child) {
-  margin-right: 24px;
-  margin-bottom: 47px;
-}
-.portfolio-img:last-child{
-  margin-right: 0px;
-   margin-bottom: 0px;
-}
-.portfolio-img3{
-  margin-right:0px;
-}
+
+
 
 .portfolio-img {
-  
+  margin-right: 24px;
+  margin-bottom: 48px; 
   
 }
 
 .portfolio-img:nth-child(3n){
   margin-right: 0;
+}
+.portfolio-img:nth-last-child(-n+3){
+  margin-bottom:0;
 }
 
 
